@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #020916;
+}
+
+.movies .item {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.movies .item img {
+    position: relative;
+    z-index: 0;
+}
+
+.movies .item .wrapper {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -30%);
+    width: 65%;
+}
+
+.movies .item .overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+
+.wrapper a,.wrapper h6{
+    color: #b6b9cd;
+}
+
+.top-rated .item {
+    width: 95%;
+}
+
+.trending .item {
+    width: 95%;
+}
