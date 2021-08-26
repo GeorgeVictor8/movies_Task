@@ -1,0 +1,26 @@
+{
+  "name": "movies_task",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeVictor8/movies_Task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeorgeVictor8/movies_Task/issues"
+  },
+  "homepage": "https://github.com/GeorgeVictor8/movies_Task#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.0",
+    "gulp-sass": "^5.0.0",
+    "owl.carousel": "^2.3.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}
